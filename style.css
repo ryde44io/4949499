@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(208, 255, 0);
+}
+header {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 25px;
+  font-weight: 500;
+}
+nav{
+width: 45%;
+display: flex;
+justify-content: space-between;
+}
+nav > a{
+text-decoration: none;
+color: black;
+padding: 10px;
+background-color: rgb(255, 136, 0);
+}
+
+nav > a:hover {
+  transition: 0.5s;
+color: rgb(47, 0, 255);
+background-color: black;
+}
